@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.header {
+    display: flex;
+    background-color: #176;
+    height: 12vh;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.cuadrado {
+ background-color: red;
+ width: 10%;
+}
