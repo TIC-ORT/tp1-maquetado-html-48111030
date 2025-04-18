@@ -13,10 +13,11 @@ body{
     padding-right: 20%;
 }
 .cuadrado {
- width: 15%;
+ width: 8vw;
  display: flex;
  flex-direction: column;
  justify-content: center;
+ 
 
 }
 .cuadrado-raro {
@@ -24,7 +25,7 @@ body{
 }
 .rayablanca{
     background-color: white;
-    height: 20%;
+    height: 14%;
 }
 
 
@@ -166,4 +167,37 @@ gap: 10%;
     background-color: blue;
     margin-top: 15%;
     margin-bottom: 3vh;
+}
+/*
+.footer {
+    display: flex;
+    background-color: lightblue;
+    height: 12vh;
+    width: 100%;
+    
+}
+
+.cf {
+    width: 30%;
+    margin-right: 50px;
+    margin-left: 10%;
+    
+}
+.cn {
+    margin-right: 30px;
+}
+
+*/
+
+.footer {
+    display: flex;
+    background-color: lightblue;
+    height: 12vh;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.larga {
+    width: 10.3vw;
 }
