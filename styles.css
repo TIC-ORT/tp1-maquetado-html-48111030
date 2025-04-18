@@ -55,15 +55,18 @@ body{
 }
 .rayas {
     display: flex;
-    flex-direction: column;
-    gap: 4%;
-    height: 100%;
+    flex-direction: column; 
     width: 100%;
-    margin-left: -5%; 
     align-items: center;
+    height: 100%;
+    gap: 2vh;
+}
+.rayasMAIN{
+    margin-left: -5%;
+   
 }
 .rayita {
-    height: 2.5%; 
+    height: 1vh; 
     width: 80%;
     background-color: lightblue;
 }
@@ -99,9 +102,68 @@ body{
     background-color: blue;
     height:9%;  
     width: 55%;
-    margin: 10px;
+    margin: 5%;
 }
 
 .azul {
     background-color: rebeccapurple;
+}
+
+
+.publications {
+    height: 80vh;
+    width: 100%;
+    background-color: orange;
+}
+.top {
+    width: 100%;
+    height: 27vh;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rectanguloTOP {
+    height: 4vh;
+    width: 80%;
+    background-color: blue;
+    margin-top: 2.5%;
+    margin-bottom: 1.8%;
+}´
+.rayasTOP {
+    gap: 4%;
+}
+.rt {
+    height: 1vh;
+}
+.projects-container{
+width: 100%;
+height: fit-content;
+display: flex;
+justify-content: center;
+gap: 10%;
+
+}
+.project {
+    height: 40vh;
+    background-color: lightseagreen;
+    width: 15%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.image{
+    height: 45vh;
+    width: 80%;
+    background-color: chartreuse;
+}
+.rectanguloPROJECT {
+    height: 7vh;
+    width: 80%;
+    background-color: blue;
+    margin-top: 15%;
+    margin-bottom: 3vh;
 }
